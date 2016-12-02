@@ -1,0 +1,10 @@
+XTerm*faceName: Inconsolata
+XTerm*faceSize: 12
+XTerm*foreground: rgb:ff/ff/ff
+XTerm*background: rgb:00/00/00
+! XTerm*transparent: true
+! XTerm*metaSendsEscape: true
+
+XTerm*vt100*translations:		#override	\n \
+Shift Ctrl <KeyPress>C:	copy-selection(CLIPBOARD)	\n \
+Shift Ctrl <KeyPress>V:	insert-selection(CLIPBOARD)	\n
