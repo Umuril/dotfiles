@@ -1,0 +1,7 @@
+[push]
+	default = simple
+[user]
+	name = Umuril
+	email = umuril.lyerood@gmail.com
+[core]
+	editor = nano
